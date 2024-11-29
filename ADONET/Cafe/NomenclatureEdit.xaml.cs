@@ -57,8 +57,8 @@ namespace Cafe
                 }
                 else
                 {
-                    dbContext.SaveChanges();
                 }
+                dbContext.SaveChanges();
             }
         }
 
